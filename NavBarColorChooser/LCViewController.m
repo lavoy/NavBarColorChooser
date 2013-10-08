@@ -109,9 +109,9 @@
     CGFloat sValue = self.sSlider.value;
     CGFloat bValue = self.bSlider.value;
     
-    self.hLabel.text = [NSString stringWithFormat:@"%1.0f", hValue];
-    self.sLabel.text = [NSString stringWithFormat:@"%1.2f", sValue];
-    self.bLabel.text = [NSString stringWithFormat:@"%1.2f", bValue];
+    self.hLabel.text = [NSString stringWithFormat:@"H: %1.0f", hValue];
+    self.sLabel.text = [NSString stringWithFormat:@"S: %1.2f", sValue];
+    self.bLabel.text = [NSString stringWithFormat:@"B: %1.2f", bValue];
     
     UIColor *color = [UIColor colorWithHue:hValue / 360.0
                                 saturation:sValue
