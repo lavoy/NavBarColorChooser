@@ -13,7 +13,6 @@
 		A1D6893F180470FE000D0F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D6893D180470FE000D0F1C /* InfoPlist.strings */; };
 		A1D68941180470FE000D0F1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68940180470FE000D0F1C /* main.m */; };
 		A1D68945180470FE000D0F1C /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D68944180470FE000D0F1C /* LCAppDelegate.m */; };
-		A1D68948180470FE000D0F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D68946180470FE000D0F1C /* Main.storyboard */; };
 		A1D6894B180470FE000D0F1C /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D6894A180470FE000D0F1C /* LCViewController.m */; };
 		A1D6894D180470FE000D0F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D6894C180470FE000D0F1C /* Images.xcassets */; };
 		A1D68954180470FE000D0F1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D68953180470FE000D0F1C /* XCTest.framework */; };
@@ -44,7 +43,6 @@
 		A1D68942180470FE000D0F1C /* NavBarColorChooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavBarColorChooser-Prefix.pch"; sourceTree = "<group>"; };
 		A1D68943180470FE000D0F1C /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
 		A1D68944180470FE000D0F1C /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
-		A1D68947180470FE000D0F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1D68949180470FE000D0F1C /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
 		A1D6894A180470FE000D0F1C /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
 		A1D6894C180470FE000D0F1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 			children = (
 				A1D68943180470FE000D0F1C /* LCAppDelegate.h */,
 				A1D68944180470FE000D0F1C /* LCAppDelegate.m */,
-				A1D68946180470FE000D0F1C /* Main.storyboard */,
 				A1D68949180470FE000D0F1C /* LCViewController.h */,
 				A1D6894A180470FE000D0F1C /* LCViewController.m */,
 				A1D6894C180470FE000D0F1C /* Images.xcassets */,
@@ -231,7 +228,6 @@
 			files = (
 				A1D6894D180470FE000D0F1C /* Images.xcassets in Resources */,
 				A1D6893F180470FE000D0F1C /* InfoPlist.strings in Resources */,
-				A1D68948180470FE000D0F1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +277,6 @@
 				A1D6893E180470FE000D0F1C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A1D68946180470FE000D0F1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1D68947180470FE000D0F1C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A1D6895C180470FE000D0F1C /* InfoPlist.strings */ = {
@@ -382,6 +370,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavBarColorChooser/NavBarColorChooser-Prefix.pch";
 				INFOPLIST_FILE = "NavBarColorChooser/NavBarColorChooser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavBarColorChooser/NavBarColorChooser-Prefix.pch";
 				INFOPLIST_FILE = "NavBarColorChooser/NavBarColorChooser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
