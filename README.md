@@ -7,4 +7,5 @@ This is a simple utility to tweak the UINavigationBar's barTintColor using HSB c
   <img src="https://raw.github.com/lavoy/NavBarColorChooser/master/assets/blue.png">
   <img src="https://raw.github.com/lavoy/NavBarColorChooser/master/assets/red.png">
   <img src="https://raw.github.com/lavoy/NavBarColorChooser/master/assets/green.png">
+  <img src="https://raw.github.com/lavoy/NavBarColorChooser/master/assets/yellow.png">
 </p>
